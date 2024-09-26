@@ -7,30 +7,57 @@
     <link rel="stylesheet" href="históricoCss.css" />
   </head>
   <body>
-    <aside class="sidebar">
+    <nav class="sidebar">
       <ul>
         <li class="sidebar-item">
-          <img src="./assets/lupaQuester.svg" alt="" />
+          <a href="./">
+            <img src="./assets/lupaQuester.svg" alt="" />
+          </a>
         </li>
-        <li class="sidebar-item menu">
-          <img src="./assets/Grid.svg" alt="" />
+        <li class="sidebar-item menu" title="Partidas Guardadas">
+          <a href="./partidasGuardadas.html">
+            <img src="./assets/Grid.svg" alt="Lista de Questões" />
+          </a>
         </li>
-        <li class="sidebar-item menu">
-          <img src="./assets/Add Square.svg" alt="" />
+        <li class="sidebar-item menu" title="Criar Partida">
+          <a href="./criarPartida.html">
+            <img src="./assets/Add Square.svg" alt="Play" />
+          </a>
         </li>
-        <li class="sidebar-item menu">
-          <img src="./assets/Text Bullet List Square.svg" alt="" />
+        <li class="sidebar-item menu" title="Lista de Questões">
+          <a href="testeCriarQuestao.html">
+            <img
+              src="./assets/Text Bullet List Square.svg"
+              alt="Lista de Questões"
+            />
+          </a>
         </li>
-        <li class="sidebar-item menu">
-          <img src="./assets/Document Copy.svg" alt="" />
+        <li class="sidebar-item menu" title="Historico de Partidas">
+          <a href="historico.html">
+            <img
+              src="./assets/Document Copy.svg"
+              alt="Historico de Partidas"
+            />
+          </a>
         </li>
       </ul>
       <ul>
-        <li class="user-option">
-          <img src="./assets/person-circle.svg" alt="" />
+        <li class="user-option" title="Configuração de Perfil">
+          <a href="./configProfile.html">
+            <img
+              src="./assets/person-circle.svg"
+              alt="Profile"
+              id="profile-photo"
+            />
+          </a>
+        </li>
+        <li class="user-option" title="Logout">
+          <a href="../../index.html" id="logout">
+            <img src="/assets/logout.svg" alt="Logout" />
+          </a>
         </li>
       </ul>
-    </aside>
+    </nav>
     <main class="content">
       <header>
         <div class="header-text">
